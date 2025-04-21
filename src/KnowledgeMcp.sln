@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowledgeMcp.Server", "KnowledgeMcp.Server\KnowledgeMcp.Server.csproj", "{044B2387-40AB-4D29-8B18-43946FCE58AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowledgeMcp.DataLoader", "KnowledgeMcp.DataLoader\KnowledgeMcp.DataLoader.csproj", "{13FF929A-A994-480B-A77C-DA7ADA8586C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{0E458FED-F449-4F65-A6DF-7CA666429E2E}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+		..\.gitignore = ..\.gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{044B2387-40AB-4D29-8B18-43946FCE58AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{044B2387-40AB-4D29-8B18-43946FCE58AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{044B2387-40AB-4D29-8B18-43946FCE58AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{044B2387-40AB-4D29-8B18-43946FCE58AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13FF929A-A994-480B-A77C-DA7ADA8586C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13FF929A-A994-480B-A77C-DA7ADA8586C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13FF929A-A994-480B-A77C-DA7ADA8586C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13FF929A-A994-480B-A77C-DA7ADA8586C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
